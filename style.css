@@ -14,6 +14,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     color: var(--second-color);
+    scroll-behavior: smooth;
 }
 
 header {
@@ -82,7 +83,7 @@ li a:hover {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 540px) {
    
     .nav-icon {
         font-size: 20px;
@@ -127,8 +128,8 @@ li a:hover {
 
 /* !Home */
 
-.home {
-    margin: 80px 35px;
+#home {
+    padding: 80px 35px;
 }
 
 .container {
@@ -170,7 +171,7 @@ li a:hover {
 
 .social a{
     padding-right: 20px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .social i:hover{
@@ -181,8 +182,8 @@ li a:hover {
 
 
 @media screen and (max-width: 540px) {
-    .home {
-        margin: 70px 35px;
+    #home {
+        padding: 70px 35px;
     }
     .container {
         display: flex;
@@ -190,7 +191,9 @@ li a:hover {
         align-items: unset;
     }
 
-    
+    .social a {
+        font-size: 20px;
+    }
 
     .home-title {
         font-size: 28px;
@@ -215,6 +218,7 @@ li a:hover {
 .title{
     display: flex;
     justify-content: center;
+    padding-top: 40px;
 }
 
 .container-2  {
@@ -250,23 +254,24 @@ li a:hover {
         justify-content: center;
         max-width: 100%;
         padding: 0 50px;
-        margin-top: 20px;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
         margin-left: 0;
     }
     .title {
         font-size: 24px;
+        padding-top: 0;
+        padding-bottom: 40px;
     }
     .col-2 h1 {
         font-size: 24px;
         display: flex;
         justify-content: center;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .pra {
         display: flex;
         justify-content: center;
         font-size: 14px;
-        margin-bottom: 8px;
+        margin-bottom: 20px;
     }
 }
